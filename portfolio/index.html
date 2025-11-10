@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitanya Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Portfolio of Chaitanya Anjenaya Subbi Reddy, aspiring Java Full Stack Developer." />
+  <script src="https://kit.fontawesome.com/994c4bdce1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="logopart">
+      <img class="logo" src="https://th.bing.com/th/id/OIP.5oou4wcX_qwayS3vh3QDWAHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Logo" />
+      <p class="logoname">Chaitanya</p>
+    </div>
+    <div class="nav-right">
+      <ul id="menulist">
+        <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fa-solid fa-user-graduate"></i> Education</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-file-code"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-phone"></i> Contact</a></li>
+      </ul>
+    </div>
+    <div class="menuicon">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+
+  <section class="home">
+    <div class="namepart">
+      <h1>Hello, I am</h1>
+      <h1>Chaitanya Anjenaya Subbi Reddy</h1>
+      <p>Aspiring Java Full Stack Developer</p>
+      <a href="https://www.linkedin.com/in/chaitanya-reddy-b2082a2a5" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
+      <a href="https://github.com/chaitanya9991ad" target="_blank"><img src="git1.png" alt="GitHub" /></a>
+      <a href="https://leetcode.com/u/kchaitanyareddy79/" target="_blank"><img src="leetcode.png" alt="LeetCode" /></a><br />
+      <a class="button" href="22A21A6524.pdf" download>Download Resume</a>
+    </div>
+    <div class="prof">
+      <img src="profile1.jpg" alt="Profile Picture" />
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="About" id="about">
+    <h2 class="aboutme">About Me</h2>
+    <p>
+      Hello! I'm a passionate and motivated Java Full Stack Developer with a strong foundation in both frontend and backend technologies. As a recent graduate, I have hands-on experience building full-stack applications using Java, Spring, HTML, CSS, JavaScript, and MySQL. I enjoy creating user-friendly web applications and solving real-world problems through clean and efficient code.
+    </p>
+  </section>
+
+  <section class="education-section" id="education">
+    <h2 class="education">Education</h2><br>
+    <div class="instit">
+      <img class="eduicons" src="swrn.png" alt="Swarnandhra Logo" />
+      <p><strong>Swarnandhra College of Engineering and Technology</strong><br>B.Tech in CSE & Business Systems (2022–2026), 8.1/10 CGPA</p>
+    </div>
+    <div class="instit">
+      <img class="eduicons" src="aditya.jpeg" alt="Aditya Logo" />
+      <p><strong>Aditya Junior College</strong><br>Intermediate (2020–2022), 794/1000 marks</p>
+    </div>
+    <div class="instit">
+      <img class="eduicons" src="scet1.jpg" alt="Sri Chaitanya Logo" />
+      <p><strong>Sri Chaitanya Techno School</strong><br>Secondary Education (2019–2020), 85% marks</p>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2 class="project">Projects</h2> 
+    <div class="project-container">
+     <div class="project-card">
+      <h3>Simple Calculator Application</h3><br>
+     <img src="calculator.png" alt="Calculator App Screenshot"><br>
+     <p>A basic, responsive calculator built using **HTML, CSS, and JavaScript**. Features standard arithmetic operations and a clean, user-friendly interface. Demonstrates proficiency in DOM manipulation and frontend logic.</p>
+      <a class="button" href="https://calc45.netlify.app/" target="_blank">View Project</a>
+     </div>
+      <div class="project-card">
+     <h3>Student Management System</h3><br>
+    <img src="studentmanagesys.png" alt="Student Management System Screenshot"><br>
+   <p>A full-stack application for managing student records. Developed using **Java, Spring Boot, and MySQL**. Provides CRUD operations for student data and implements RESTful API design principles.</p>
+    <a class="button" href="https://github.com/chaitanya9991ad/StudentManagementSystem/tree/main/StudentManagementSystem" target="_blank">View Project</a>
+   </div>
+    <div class="project-card">
+     <h3>MicroLending Application</h3><br>
+    <img src="microloan.jpg" alt="MicroLending Application Screenshot">
+    <p>A conceptual banking-style application to facilitate microloans. Implemented backend logic in **Java/Spring** with data persistence via **MySQL**. Focuses on secure transaction handling and loan eligibility checks.</p>
+    <a class="button" href="https://github.com/chaitanya9991ad/microlending-spring-boot/tree/main/microlending_with_features/microlending" target="_blank">View Project</a>
+    </div>
+   </div>
+    </div>
+    </section>
+  <section class="skill">
+    <h2>Skills</h2><br>
+    <marquee scrollamount="12">
+    <div class="skillgrid">
+      <div class="skillscroll"><img src="htmllogo.png" alt="HTML" /><p>HTML</p></div>
+      <div class="skillscroll"><img src="css.png" alt="CSS" /><p>CSS</p></div>
+      <div class="skillscroll"><img src="javalogo.png" alt="Java" /><p>Java</p></div>
+      <div class="skillscroll"><img src="spring.png" alt="SpringBoot" /><p>SpringBoot</p></div>
+      <div class="skillscroll"><img src="mysql.png" alt="MySQL" /><p>MySQL</p></div>
+      <div class="skillscroll"><img src="git.png" alt="Git" /><p>Git</p></div>
+    </div>
+  </marquee>
+  </section>
+
+  <section class="contactform" id="contact">
+    <h2>Contact Me</h2>
+    <div class="form-container">
+      <form action="https://formspree.io/f/yourformid" method="POST" netlify>
+        <label for="username">Name:</label><br />
+        <input type="text" id="username" name="username" placeholder="Enter your name" required /><br /><br />
+        <label for="email">E-Mail:</label><br />
+        <input type="email" id="email" name="email" placeholder="Enter your E-mail" required /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea><br /><br />
+        <button type="submit">Send Message</button><br /><br />
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chaitanya Anjenaya Subbi Reddy. All rights reserved.</p>
+  </footer>
+
+  <script>
+  let menulist=document.getElementById("menulist");
+  menulist.style.maxHeight="0px";
+  function toggleMenu() {
+  if (menulist.style.maxHeight == "0px") {
+    menulist.style.maxHeight = "500px";
+  } else {
+    menulist.style.maxHeight = "0px";
+  }
+}
+</script>
+ </body>
+</html>
